@@ -9,9 +9,15 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+        System.out.println(doubleTheNumber(5));
     }
 
     public static int doubleTheNumber(int number) {
-        return -1;
+
+        return number*2;
+
     }
+
+
+
 }
